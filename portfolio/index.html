@@ -1,0 +1,370 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#0b0c10" />
+    <meta name="author" content="VAITHISWARAN" />
+    <title>VAITHISWARAN • Full-Stack Developer</title>
+    <meta
+      name="description"
+      content="Portfolio of VAITHISWARAN — Full-Stack Developer (MERN/Node.js/React). Projects, skills, experience, and contact."
+    />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%23000000'/%3E%3Ctext x='50' y='60' text-anchor='middle' font-size='56' fill='%23ffffff' font-family='Arial, Helvetica, sans-serif'%3EH%3C/text%3E%3C/svg%3E"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+
+    <!-- ===== Top Nav ===== -->
+    <header>
+      <div class="container nav">
+        <a href="#main-content" class="brand" aria-label="Home">
+          <span class="brand-badge">V</span>
+          <span>VAITHISWARAN</span>
+        </a>
+        <nav aria-label="Primary">
+          <ul class="nav-links">
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="actions">
+          <button
+            class="btn btn-icon"
+            id="themeToggle"
+            aria-label="Toggle theme"
+            type="button"
+          >
+            🌓
+          </button>
+          <a class="btn btn-primary" href="./resume.pdf" download
+            >Download Resume</a
+          >
+        </div>
+      </div>
+    </header>
+
+    <!-- ===== Hero ===== -->
+    <main id="main-content" class="hero" tabindex="-1">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <span class="eyebrow"
+            ><span class="dot"></span> Full-Stack Developer</span
+          >
+          <h1>
+            Hi, I'm <span class="gradient-text">VAITHISWARAN</span>.<br />
+            I build fast, delightful web apps.
+          </h1>
+          <p class="lead">
+            I craft end-to-end solutions from clean APIs to sleek interfaces. I
+            enjoy TypeScript, React, Node.js, Express, and databases. Always
+            shipping, always learning.
+          </p>
+          <div class="pill-row" aria-label="Key capabilities">
+            <span class="pill">MERN / PERN</span>
+            <span class="pill">REST & GraphQL</span>
+            <span class="pill">CI/CD</span>
+            <span class="pill">Cloud & Docker</span>
+            <span class="pill">Testing</span>
+          </div>
+          <div class="cta-row">
+            <a class="btn" href="#projects">View Projects</a>
+            <a class="btn" href="#contact">Contact Me</a>
+          </div>
+        </div>
+        <div class="hero-card">
+          <div class="stats" role="list" aria-label="Quick stats">
+            <div class="stat" role="listitem">
+              <h3 id="yearsExp">3+</h3>
+              <p>Years Experience</p>
+            </div>
+            <div class="stat" role="listitem">
+              <h3>25+</h3>
+              <p>Projects Shipped</p>
+            </div>
+            <div class="stat" role="listitem">
+              <h3>100%</h3>
+              <p>On-time Delivery</p>
+            </div>
+          </div>
+          <div class="card availability-card">
+            <p>
+              Currently available for freelance & full-time roles. Based in
+              India, open to remote.
+            </p>
+            <div class="socials">
+              <a href="mailto:hello@your-email.com" aria-label="Email"
+                >📧 Email</a
+              >
+              <a
+                href="https://github.com/your-github"
+                target="_blank"
+                rel="noopener"
+                aria-label="GitHub"
+                >🐙 GitHub</a
+              >
+              <a
+                href="https://www.linkedin.com/in/your-linkedin"
+                target="_blank"
+                rel="noopener"
+                aria-label="LinkedIn"
+                >💼 LinkedIn</a
+              >
+              <a
+                href="https://x.com/your-handle"
+                target="_blank"
+                rel="noopener"
+                aria-label="X/Twitter"
+                >𝕏 Twitter</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- ===== Projects ===== -->
+    <section id="projects">
+      <div class="container">
+        <h2 class="section-title">
+          <span class="bar"></span> Featured Projects
+        </h2>
+        <div class="grid grid-3">
+          <!-- Project 1 -->
+          <article class="project card">
+            <div class="thumb" aria-hidden="true">E-Commerce</div>
+            <h3>MERN E-Commerce Platform</h3>
+            <p>
+              Full-stack store with authentication, payments, admin dashboard,
+              and performant SSR product pages.
+            </p>
+            <div class="tags">
+              <span class="tag">MongoDB</span>
+              <span class="tag">Express</span>
+              <span class="tag">React</span>
+              <span class="tag">Node.js</span>
+              <span class="tag">Stripe</span>
+            </div>
+            <div class="link-row">
+              <a class="btn" href="#" aria-label="Live demo of MERN E-Commerce"
+                >Live</a
+              >
+              <a
+                class="btn"
+                href="#"
+                aria-label="Source code of MERN E-Commerce"
+                >Code</a
+              >
+            </div>
+          </article>
+          <!-- Project 2 -->
+          <article class="project card">
+            <div class="thumb" aria-hidden="true">Chat App</div>
+            <h3>Realtime Chat Application</h3>
+            <p>
+              Socket-powered chat with rooms, presence, message history, and JWT
+              auth. Deployed with Docker.
+            </p>
+            <div class="tags">
+              <span class="tag">PostgreSQL</span>
+              <span class="tag">Express</span>
+              <span class="tag">React</span>
+              <span class="tag">Node.js</span>
+              <span class="tag">WebSockets</span>
+            </div>
+            <div class="link-row">
+              <a class="btn" href="#">Live</a>
+              <a class="btn" href="#">Code</a>
+            </div>
+          </article>
+          <!-- Project 3 -->
+          <article class="project card">
+            <div class="thumb" aria-hidden="true">Analytics</div>
+            <h3>Analytics Dashboard</h3>
+            <p>
+              Responsive dashboard with charts, role-based access, server-side
+              pagination, and Export to CSV.
+            </p>
+            <div class="tags">
+              <span class="tag">Next.js</span>
+              <span class="tag">Prisma</span>
+              <span class="tag">tRPC</span>
+              <span class="tag">Tailwind</span>
+              <span class="tag">Vercel</span>
+            </div>
+            <div class="link-row">
+              <a class="btn" href="#">Live</a>
+              <a class="btn" href="#">Code</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Skills ===== -->
+    <section id="skills">
+      <div class="container">
+        <h2 class="section-title"><span class="bar"></span> Skills</h2>
+        <div class="grid grid-3">
+          <div class="card">
+            <h3>Frontend</h3>
+            <p>
+              HTML5, CSS3, JavaScript (ESNext), TypeScript, React, Next.js,
+              Responsive UI, Accessibility (a11y)
+            </p>
+          </div>
+          <div class="card">
+            <h3>Backend</h3>
+            <p>
+              Node.js, Express, REST, GraphQL, WebSockets, Authentication
+              (JWT/OAuth), Microservices
+            </p>
+          </div>
+          <div class="card">
+            <h3>Data & DevOps</h3>
+            <p>
+              MongoDB, PostgreSQL, Prisma/Mongoose, Docker, CI/CD (GitHub
+              Actions), Cloud (AWS/Vercel)
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Experience ===== -->
+    <section id="experience">
+      <div class="container">
+        <h2 class="section-title"><span class="bar"></span> Experience</h2>
+        <div class="timeline">
+          <div class="t-item card">
+            <div class="t-role">
+              Full-Stack Developer <span class="t-org">• Freelance</span>
+            </div>
+            <div class="t-dates muted">2022 — Present</div>
+            <ul class="bullets">
+              <li>
+                Built and maintained production MERN apps used by 5k+ monthly
+                users.
+              </li>
+              <li>
+                Designed REST/GraphQL APIs with robust auth, caching, and
+                monitoring.
+              </li>
+              <li>
+                Implemented CI/CD pipelines, reducing deploy times by 60%.
+              </li>
+            </ul>
+          </div>
+          <div class="t-item card">
+            <div class="t-role">
+              Frontend Engineer <span class="t-org">• Example Co.</span>
+            </div>
+            <div class="t-dates muted">2025 — 2027</div>
+            <ul class="bullets">
+              <li>
+                Built accessible, high-performance React components and design
+                systems.
+              </li>
+              <li>Improved Lighthouse scores to 95+ across key pages.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Contact ===== -->
+    <section id="contact">
+      <div class="container">
+        <h2 class="section-title"><span class="bar"></span> Contact</h2>
+        <div class="grid grid-2">
+          <div class="card">
+            <h3>Let's build something great.</h3>
+            <p>
+              Have an idea or a role in mind? Send a message and I'll get back
+              quickly.
+            </p>
+            <form>
+              <label>
+                <span>Name</span>
+                <input
+                  type="text"
+                  name="name"
+                  placeholder="Your name"
+                  required
+                  autocomplete="name"
+                />
+              </label>
+              <label>
+                <span>Email</span>
+                <input
+                  type="email"
+                  name="email"
+                  placeholder="you@example.com"
+                  required
+                  autocomplete="email"
+                />
+              </label>
+              <label>
+                <span>Message</span>
+                <textarea
+                  name="message"
+                  rows="5"
+                  placeholder="Tell me about your project"
+                  required
+                ></textarea>
+              </label>
+              <p class="form-status" id="formStatus" aria-live="polite"></p>
+              <button class="btn btn-primary" type="submit">
+                Send Message
+              </button>
+            </form>
+          </div>
+          <div class="card">
+            <h3>Details</h3>
+            <p><strong>Name:</strong> VAITHISWARAN</p>
+            <p><strong>Location:</strong> India (Open to Remote)</p>
+            <p>
+              <strong>Email:</strong>
+              <a href="mailto:hello@your-email.com">hello@your-email.com</a>
+            </p>
+            <p>
+              <strong>GitHub:</strong>
+              <a
+                href="https://github.com/your-github"
+                target="_blank"
+                rel="noopener"
+                >github.com/your-github</a
+              >
+            </p>
+            <p>
+              <strong>LinkedIn:</strong>
+              <a
+                href="https://www.linkedin.com/in/your-linkedin"
+                target="_blank"
+                rel="noopener"
+                >linkedin.com/in/your-linkedin</a
+              >
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container footer-wrap">
+        <p>© <span id="year"></span> VAITHISWARAN. All rights reserved.</p>
+        <div class="socials">
+          <a href="#main-content">Back to top ↑</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="main.js" defer></script>
+  </body>
+</html>
